@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio</title>
+
+<link rel="stylesheet" href="estilos.css">
+<script src="https://kit.fontawesome.com/37360260aa.js" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- VIDEO FONDO -->
+<video autoplay muted loop playsinline class="video-bg">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- NAVBAR -->
+<header>
+    <nav id="navbar">
+        <div class="logo">paul<span>Lopez</span></div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        
+        <div class="hero-text" data-aos="fade-up">
+            <h1>Paul Lopez</h1>
+            <h2>Desarrollador web junior</h2>
+            <p>Estoy aprendiendo a programar</p>
+        </div>
+
+        <div class="hero-image">
+            <img src="" alt="">
+        </div>
+
+    </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="Proyecto" class="projects">
+    <h2>Proyectos Personales</h2>
+
+    <div class="projects-container">
+
+        <!-- PROYECTO 1 -->
+        <div class="projects-card" data-aos="zoom-in">
+            <div class="projects-img">
+                <img src="juego.png" alt="juego">
+            </div>
+
+            <div class="projects-info">
+                <h3>Enemy Rush</h3>
+                <p>Prepárate para una intensa batalla aérea donde deberás esquivar ataques enemigos <br>
+                    y destruir oleadas de naves que descienden desde el cielo. A medida que avanzas de nivel,<br>
+                    la dificultad aumenta y los enemigos aparecen en formaciones cada vez más desafiantes.<br>
+                    Pon a prueba tus reflejos, mejora tu precisión y sobrevive el mayor tiempo posible mientras <br>
+                    acumulas puntos y proteges tus vidas. ¿Hasta qué nivel podrás llegar?   </p>
+
+                <div class="projects-tech">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYECTO 2 -->
+        <div class="projects-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="projects-img">
+                <img src="img2.jpg" alt="">
+            </div>
+
+            <div class="projects-info">
+                <h3>Proyecto 2</h3>
+                <p>Otro proyecto interesante que desarrollé.</p>
+
+                <div class="projects-tech">
+                    <span>Luau(Lua)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYECTO 3 -->
+        <div class="projects-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="projects-img">
+                <img src="img3.jpg" alt="">
+            </div>
+
+            <div class="projects-info">
+                <h3>Proyecto 3</h3>
+                <p>Proyecto con nuevas mecánicas y mejoras.</p>
+
+                <div class="projects-tech">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" class="videos">
+    <h2>Videos de Proyectos</h2>
+
+    <div class="videos-container">
+
+        <div class="video-card" data-aos="fade-up">
+            <div class="ratio ratio-16x9">
+                <iframe width="310" height="215" src="https://www.youtube.com/embed/4WECKHkZ-JU?si=dqMmWGQE0CbRx7Qs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h3>Proyecto 1</h3>
+            <div class="projects-links">
+                    <a href="http://greenfoot.org/scenarios/36173" target="_blank" class="btn-play">
+                        🎮 Juega ya
+                    </a>
+            </div>
+        </div>
+
+        <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO_2" allowfullscreen></iframe>
+            </div>
+            <h3>Proyecto 2</h3>
+            
+        </div>
+
+        <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO_3" allowfullscreen></iframe>
+            </div>
+            <h3>Proyecto 3</h3>
+            
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contact">
+    <h2>Contáctame</h2>
+
+    <form data-aos="fade-up">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2026 Paul Lopez</p>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1200,
+    once: true
+});
+</script>
+
+</body>
+</html>
